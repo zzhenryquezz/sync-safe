@@ -14,11 +14,11 @@
   "dependencies": {
     "@types/node": "12.12.51",
     "core-js": "^3.6.5",
+    "electron-store": "^6.0.0",
     "knex": "^0.21.2",
     "sqlite3": "^5.0.0",
     "vue": "^2.6.11",
-    "vue-wind": "0.0.7",
-    "vuex": "^3.4.0"
+    "vue-wind": "0.0.8"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",

@@ -1,15 +1,5 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+const Store = window.require('electron-store');
 
-Vue.use(Vuex)
+const store = new Store();
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export default store;
